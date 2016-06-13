@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	font: 12px/1.4 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+a:hover, a:active, a:visited, a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+}
+.nowrap {
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.badge {
+	border-radius: 10px;
+	padding: 10px 7px;
+	font-weight: 700;
+	background-color: #ccc;
+	float: right;
+	display: inline-block;
+	text-align: center;
+	line-height: 1px;
+}
+li {
+	list-style: none;
+}
+header {
+	padding: 0 10px 20px;
+}
+header nav {
+	height: 70px;
+}
+header nav ul {
+	height: 100%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+header nav ul li {
+	line-height: 4.4;
+	float: left;
+	padding: 0 20px;
+}
+header nav ul li a {
+	color: #ccc;
+	transition: color .8s;
+}
+header nav ul li a:hover {
+	color: #333;
+}
+header h1 {
+	font-size: 32px;
+	margin-left: 5%;
+	text-shadow: 1px 1px 2px #ccc;
+}
+header h2 {
+	font-size: 14pt;
+	color: #666;
+	font-style: italic;
+	margin-left: 8%;
+}
+footer {
+	min-height: 32px;
+}
+.i {
+	font-style: italic;
+	color: #ccc;
+}
+.center {
+	margin-right: 340px;
+}
+.sidebar {
+	float: right;
+	width: 320px;
+}
+.sidebar ul {
+	padding: 0;
+}
+.sidebar ul li {
+	line-height: 24px;
+	padding: 7px 10px;
+	vertical-align: middle;
+}
+.sidebar ul li:not(:last-child) {
+	border-bottom: solid 1px #ccc;
+}
+.panel {
+	border: solid 1px #ccc;
+	border-radius: 4px;
+	min-height: 32px;
+	margin: 20px 0 0;
+	padding: 10px 12px;
+	box-shadow: 1px 1px 1px #eee;
+}
+.content {
+	padding: 20px 10px;
+}
+.center .panel {
+	padding: 0 12px 10px;
+}
+.center .panel h3 a {
+	color: #000;
+}
+.center .panel h3 a.category {
+	color: #666;
+}
+.center .panel .right {
+	float: right;
+	width: 180px;
+	text-align: right;
+}
+.center .panel .left, .center .panel h3 {
+	margin-right: 200px;
+}
+.center .panel .time {
+	line-height: 42px;
+}
+.pagination {
+	margin-top: 20px;
+	width: 100%;
+	height: 28px;
+}
+.pagination ul {
+	margin: 0 auto;
+}
+.pagination ul li {
+	float: left;
+	border: solid 1px #ccc;
+	margin: 0 10px;
+}
+.pagination ul li.active {
+	font-weight: bold;
+	border: none;
+}
+.pagination ul li a, .pagination ul li label {
+	display: block;
+	padding: 4px 10px;
+}
+.pagination ul li label {
+	color: #666;
+}
