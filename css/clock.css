@@ -29,15 +29,15 @@
 	width: 12px;
 	background-color: #999;
 	transform: rotate(-90deg);
-	transform-origin: top left;
+	transform-origin: left 1px;
 }
 .clock .minute {
 	height: 2px;
-	width: 18px;
+	width: 16px;
 	margin-top: -2px;
 	background-color: #ccc;
 	transform: rotate(-90deg);
-	transform-origin: top left;
+	transform-origin: left 1px;
 }
 .clock .second {
 	height: 1px;
@@ -45,5 +45,5 @@
 	margin-top: -2px;
 	background-color: #fff;
 	transform: rotate(-90deg);
-	transform-origin: top left;
+	transform-origin: left top;
 }
