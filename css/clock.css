@@ -25,25 +25,26 @@
 	border-radius: 30px;
 }
 .clock .hour {
-	height: 2px;
-	width: 12px;
-	background-color: #999;
-	transform: rotate(-90deg);
-	transform-origin: left 1px;
+    height: 3px;
+    width: 12px;
+    background-color: #999;
+    transform: rotate(-90deg);
+    transform-origin: left 50%;
 }
 .clock .minute {
-	height: 2px;
-	width: 16px;
-	margin-top: -2px;
-	background-color: #ccc;
-	transform: rotate(-90deg);
-	transform-origin: left 1px;
+    height: 2px;
+    width: 16px;
+    margin-top: -2px;
+    background-color: #ccc;
+    transform: rotate(-90deg);
+    transform-origin: left 50%;
 }
 .clock .second {
-	height: 1px;
-	width: 21px;
-	margin-top: -2px;
-	background-color: #fff;
-	transform: rotate(-90deg);
-	transform-origin: left top;
+    height: 1px;
+    width: 21px;
+    margin-top: -2px;
+    margin-left: -4px;
+    background-color: #fff;
+    transform: rotate(-90deg);
+    transform-origin: 4px 50%;
 }
