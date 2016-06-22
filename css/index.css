@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	font: 12px/1.4 Tahoma,Helvetica,Arial,'宋体',sans-serif;
-	min-width: 368px;
 }
 a:hover, a:active, a:visited, a:link {
 	text-decoration: none;
