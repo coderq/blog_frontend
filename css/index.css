@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font: 12px/1.4 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+	min-width: 368px;
 }
 a:hover, a:active, a:visited, a:link {
 	text-decoration: none;
@@ -142,4 +143,23 @@ footer {
 }
 .pagination ul li label {
 	color: #666;
+}
+
+@media(max-width: 960px) {
+	.center {
+		margin-right: 0;
+	}
+	.sidebar {
+		display: none;
+	}
+}
+@media(max-width: 700px) {
+	header h2 {
+		display: none;
+	}
+	header nav ul li {
+		line-height: 4.4;
+		clear: both;
+		padding: 0 20px;
+	}
 }
