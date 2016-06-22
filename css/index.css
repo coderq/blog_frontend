@@ -124,23 +124,20 @@ footer {
 	width: 100%;
 	height: 28px;
 }
-.pagination ul {
-	margin: 0 auto;
-}
-.pagination ul li {
+.pagination li {
 	float: left;
 	border: solid 1px #ccc;
 	margin: 0 10px;
 }
-.pagination ul li.active {
+.pagination li.active {
 	font-weight: bold;
 	border: none;
 }
-.pagination ul li a, .pagination ul li label {
+.pagination li a, .pagination li label {
 	display: block;
 	padding: 4px 10px;
 }
-.pagination ul li label {
+.pagination li label {
 	color: #666;
 }
 
@@ -160,5 +157,22 @@ footer {
 		line-height: 4.4;
 		clear: both;
 		padding: 0 20px;
+	}
+	.center .panel .right {
+		display: none;
+	}
+	.center .panel h3, .center .panel .left {
+		margin-right: 0;
+	}
+	.pagination {
+		padding-left: 0;
+	}
+}
+@media(max-width: 424px) {
+	header nav {
+		visibility: hidden;
+	}
+	.pagination .num {
+		display: none;
 	}
 }

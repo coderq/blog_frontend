@@ -13,7 +13,7 @@
 				<label><span class="icon icon-thumbs-up"></span>0</label>
 				<label><span class="icon icon-thumbs-down"></span>0</label>
 			</div>
-			<div class="left">
+			<div class="nowrap left">
 				<%for (var j = 0, jl = (articles[i].conf.tags || []).length; j < jl; j++) {%>
 				<label>
 					<span class="icon-tag"></span>

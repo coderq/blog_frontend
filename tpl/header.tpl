@@ -9,5 +9,5 @@
 			<% } %>
 		</ul>
 	</nav>
-	<h1><%= title %></h1>
-	<h2><%= subtitle %></h2>
+	<h1 class="nowrap"><%= title %></h1>
+	<h2 class="nowrap"><%= subtitle %></h2>
