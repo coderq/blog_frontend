@@ -32,6 +32,12 @@ a:hover {
 	padding: 10px 12px;
 	box-shadow: 1px 1px 1px #eee;
 }
+pre {
+	overflow: hidden;
+}
+img {
+	max-width: 100%;
+}
 li {
 	list-style: none;
 }
