@@ -33,7 +33,7 @@ a:hover {
 	box-shadow: 1px 1px 1px #eee;
 }
 pre {
-	overflow: hidden;
+	overflow: scroll;
 }
 img {
 	max-width: 100%;
