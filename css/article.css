@@ -81,3 +81,22 @@ hr {
 	border: none;
 	border-bottom: dashed 1px black;
 }
+
+@media(max-width: 960px) {
+	.center {
+		margin-right: 0;
+	}
+	.sidebar {
+		display: none;
+	}
+}
+@media(max-width: 700px) {
+	header h2 {
+		display: none;
+	}
+	header nav ul li {
+		line-height: 4.4;
+		clear: both;
+		padding: 0 20px;
+	}
+}
