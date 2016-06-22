@@ -140,7 +140,7 @@ footer {
 .pagination li label {
 	color: #666;
 }
-
+ 
 @media(max-width: 960px) {
 	.center {
 		margin-right: 0;

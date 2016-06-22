@@ -1,8 +1,8 @@
 
 			<% if (prev) { %>
-			<li><a href="<%=(url + '&page=' + prev + '&limit=' + limit)%>">上一页</a></li>
+			<li class="nowrap"><a href="<%=(url + '&page=' + prev + '&limit=' + limit)%>">上一页</a></li>
 			<% } else { %>
-			<li><label>上一页</label></li>
+			<li class="nowrap"><label>上一页</label></li>
 			<% } %>
 
 			<% for (var i = from; i <= to; i++) { %>
@@ -14,7 +14,7 @@
 			<% } %>
 			
 			<% if (next) { %>
-			<li><a href="<%=(url + '&page=' + next + '&limit=' + limit)%>">下一页</a></li>
+			<li class="nowrap"><a href="<%=(url + '&page=' + next + '&limit=' + limit)%>">下一页</a></li>
 			<% } else { %>
-			<li><label>下一页</label></li>
+			<li class="nowrap"><label>下一页</label></li>
 			<% } %>
