@@ -7,5 +7,5 @@
 			<% } %>
 		</p>
 		<hr>
-		<%== marked(content) %>
+		<%== marked(content, {renderer: renderer}) %>
 	</div>

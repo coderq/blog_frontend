@@ -55,6 +55,7 @@ function renderArticle(data) {
 
 	data = JSON.parse(data);
 	data.marked = marked;
+	data.renderer = new marked.Renderer();
 
 	if (!article_tpl) {
 		request.get('/tpl/article.tpl', function(tpl) {
