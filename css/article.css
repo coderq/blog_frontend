@@ -114,8 +114,3 @@ hr {
 		padding: 0 20px;
 	}
 }
-@media(max-width: 424px) {
-	header nav {
-		visibility: hidden;
-	}
-}
