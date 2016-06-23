@@ -90,6 +90,11 @@ hr {
 #ArticleBody li {
 	list-style: decimal;
 }
+#ArticleBody pre {
+	border-top: dashed 1px rgba(0, 0, 0, .2);
+    border-bottom: dashed 1px rgba(0, 0, 0, .2);
+    padding: 4px 0;
+}
 
 @media(max-width: 960px) {
 	.center {
